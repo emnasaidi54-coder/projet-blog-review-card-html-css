@@ -1,0 +1,79 @@
+body{
+    background-color:hsl(47, 88%, 63%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    max-width: 1440px;
+    min-width: 375px;
+
+}
+section{
+    background-color:hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 384px;
+    padding: 22px;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    border-radius: 15px ;
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+    margin-bottom: 30px;
+    border: 1.5px solid hsl(0, 0%, 7%);
+}
+section p
+{
+    font-family: Figtree;
+    font-weight: 500;
+}
+h3{
+    color:hsl(0, 0%, 7%);
+    margin:0;
+    font-family: Figtree;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+mark{
+  background-color:hsl(47, 88%, 63%);
+  padding: 2% 5%;/*top and bottom 2% and left and right 5%*/
+  border-radius: 5px;
+}
+[alt="article illustration"]{
+    width: 100%;
+    height: auto;
+    border-radius: 15px ;
+
+}
+h1{
+    color:hsl(0, 0%, 7%);
+    font-family: Figtree;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+}
+.card-text{
+    font-family: Figtree;
+    font-size: 16px;
+    color:hsl(0, 0%, 42%);
+    max-width: 350px ;
+    letter-spacing: 0.05rem;
+}
+div{
+    display:flex;
+    flex-direction:row;
+    column-gap: 10px;
+    margin: 5px;
+    align-items: center;
+}
+
+[alt="Author's image"]{
+    width: 10%;
+    height: 1%;
+}
+div p{
+   font-family: Figtree;
+   font-weight: bold;
+
+}
